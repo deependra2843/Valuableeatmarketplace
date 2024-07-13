@@ -1,0 +1,117 @@
+/* AdditionalComponent.css */
+.additional-details-container {
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 100px;
+    box-sizing: border-box;
+    background-color: rgb(45, 43, 43);
+}
+
+.cart-item-heading{
+    color: white;
+}
+
+.additional-details-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+h3 {
+    margin-top: 20px;
+}
+
+.line {
+    width: 130%;
+    border: 2px solid rgb(223, 218, 218);
+    height: 2px; /* Adjust thickness as needed */
+  /* Change the color to blue or any other color you prefer */
+}
+
+.linel{
+    width: 180%;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+
+} 
+.item-details {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.item-details .item-info {
+    flex: 1; /* Let item-info take remaining space */
+    
+}
+
+.restaurant-cart-name{
+    margin: 5px 10px; /* Add margin to all paragraphs inside item-details */
+    font-size: 1.4rem;
+    font-family:cursive;
+    color: #0909ed;
+    font: bold;
+}
+
+.item-cart-name {
+    font-size: 1.1rem;
+    color: red;
+}
+
+.item-cart-price{
+    color: rgb(5, 238, 5);
+}
+
+.food-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; /* Increase margin-right for food image */
+}
+
+.plus-button,
+.minus-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px; /* Adjust margin-right for buttons */
+    cursor: pointer;
+}
+
+.quantity-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px; /* Adjust margin-right for quantity box */
+}
+
+.item-controls {
+    display: flex;
+    align-items: center;
+}
+
+
+.Remove-cart-btn {
+    padding: 6px 12px;
+    background-color: rgb(130, 239, 110);
+    color: #1d1c1c;
+    border: none;
+    font-size: 16px;
+    margin-left: 40px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.Remove-cart-btn:hover{
+    background-color: rgb(52, 226, 52);
+}

@@ -1,0 +1,62 @@
+/* OrderDetailCard.css */
+
+.order-details-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    width: 33.33%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.item-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    margin-left: 15px;
+    color: gold;
+}
+
+.order{
+    color: blue;
+}
+
+.quantity{
+    margin-left: 2%;
+    color: rgb(0, 255, 225);
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.item-No{
+    margin-left: 40px;
+    color: red;
+}
+
+.item > div {
+    width: 33.33%;
+}
+
+.line {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}

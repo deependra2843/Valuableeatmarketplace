@@ -1,0 +1,64 @@
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 10px;
+}
+
+.food-name {
+
+font-weight: normal;
+font-family: cursive;
+display: flex;
+justify-content: center;
+align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  transition: bottom 0.3s ease; 
+}
+
+.custom-prev {
+  left: 0;
+}
+
+.custom-next {
+  right: 0;
+}
+.carousel-image img {
+  width: 60%;
+  display: block; 
+  margin: auto; 
+  transition: transform 0.3s ease; 
+  object-fit: cover;
+  height: 70%;
+  border-radius: 60%;
+}
+
+
+.carousel-container {
+  width: 70%;
+ 
+  margin: 10px auto !important;
+  position: relative;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.slick-slide > div{
+  height: 160px;
+border: none;
+}
+.carousel-image:hover img {
+  transform: scale(1.1); /* Enlarge image on hover */
+}
+
+.food-name{
+  transition: bottom 0.3s ease; 
+}
+
+.carousel-image:hover .food-name {
+  bottom: 0; /* Move up on hover */
+} 

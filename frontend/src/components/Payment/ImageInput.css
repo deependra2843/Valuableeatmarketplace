@@ -1,0 +1,37 @@
+/* ImageInput.css */
+
+.image-input-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+  }
+   
+ input::placeholder {
+   align-content: center;
+    color: #4b4a4a;
+    font-style: italic;
+    font-size: large;
+  }
+  
+  .image-input-icon {
+    width: 75px; 
+    height: 35px; 
+    margin-right: 10px;
+     margin-left: 10px;
+  }
+  
+  .image-input-field:focus {
+    border-color: #020202; /* Change to your desired border color */
+  }
+
+  .image-input-field {
+    align-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #040404;
+    border-radius: 4px;
+    outline: none;
+  }
+  

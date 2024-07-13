@@ -1,0 +1,54 @@
+/* Card.css */
+
+.credit-card {
+    width: 95%;
+margin: 40px;
+height: 290px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+    outline: none;
+  }
+
+.amount{
+  width: 40%;
+}
+
+.valid{
+  float:left;
+  width: 80%;
+  margin-right: 20px;
+ 
+}
+/* CreditCard.css */
+
+.cvv input[type="text"] {
+  width: 30px; /* Adjust width as needed */
+  outline: none;
+}
+
+
+  .card-line input {
+    outline: none;
+    flex: 1;
+    padding: 10px;
+margin-right: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1.5px solid black;
+  }
+  
+  .card-line input[type="text"]::placeholder {
+    color: #999;
+    font-style: italic;
+    color: #4b4a4a;
+  }
+  

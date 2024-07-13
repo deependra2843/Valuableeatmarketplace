@@ -1,0 +1,85 @@
+.plus-minus-button {
+    width: 31px; 
+    height: 35px; 
+    font-size: 16px; 
+  }
+  .item-price{
+    margin-top: 15%;
+    font-size: 1.2rem;
+    color: #3afb05;
+    font: lighter;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .custom-line {
+    height: 1px; 
+    background-color: rgb(248, 253, 250); 
+    margin: 10px 0; 
+  }
+  
+  
+
+  .row{
+    margin-top: 5%;
+  }
+  .custom-add-item{
+    background-color: rgb(22, 205, 22);
+border-color: green;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    border-radius: 6px;
+    padding: 2px 4px;
+  }
+  .custom-add-item:hover{
+    background-color: rgb(5, 158, 5);
+  }
+  .item-name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font: bold;
+    color: #fbf702;
+  }
+
+.custom-card{
+    background-color: rgb(37, 36, 36);
+}
+  .custom-quantity{
+    margin-left: 20%;
+  }
+
+  .restaurant-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0eff52; 
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-address {
+    font-size: 1.5rem;
+ color:#2713ff ;
+ margin-top: 5%;
+  }
+  .restaurant-address {
+   
+    white-space:normal; 
+   
+  }
+  
+  .quantity-square {
+    width: 30px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    padding: 2px 7px;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-item{
+    color: rgb(9, 9, 219);
+    font-size: 2rem;
+  }
+  
+  

@@ -1,0 +1,56 @@
+.card-services {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:rgb(41, 40, 40);
+    width: calc(90.33% - 20px); /* Adjust the width as needed */
+  }
+  .services-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .card-services a {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  
+  .services-container h1 {
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .card-title-services {
+    margin-top: 0;
+    color: white;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .card-logo {
+    width: 90px; /* Adjust as needed */
+    height: 90px; /* Adjust as needed */
+    margin: 5px auto; /* Center the image */
+    display: block;
+  }
+
+  .card-description {
+    margin-top: 5px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .three-cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-left: 60px;
+  }
+  
+  .card-wrapper {
+    flex: 1;
+    margin: 10px; /* Adjust the margin as needed */
+    max-width: calc(100.33% - 0px); /* Adjust the max-width as needed */
+  }
+ 
+  
